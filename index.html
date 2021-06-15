@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <!-- スタイルシート -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- ヘッダータグの作成
     ・ロゴの設定
@@ -29,73 +31,82 @@
 →divタグを使っていく 
 -->
 
-<div class="block-main">
-    <!-- profileの箱 -->
-    <div class="box-profile">
-        <h2 class="sub-title">
-            <span class="color-green">P</span>rofile
-        </h2>
-        <div class="item-list">
-            <img src="img/交差 1.png" alt="プロフィール画像">
-            <b>山口　真乃</b>
-            <p class="color-green"> HTML / CSS/PHP /MySQL /Laravel / Adobe XD</p>
-            <p>ここにテキストが入ります</p>
+    <div class="block-main">
+        <!-- profileの箱 -->
+        <div class="box-profile">
+            <h2 class="sub-title">
+                <span class="color-green">P</span>rofile
+            </h2>
+            <div class="item-list">
+                <img src="img/交差 1.png" alt="プロフィール画像">
+                <b>山口　真乃</b>
+                <p class="color-green"> HTML / CSS/PHP /MySQL /Laravel / Adobe XD</p>
+                <p>ここにテキストが入ります</p>
+            </div>
+            <ul class="icon-list">
+                <li>
+                    <a href="">
+                        <img src="img/github.png" alt="githubアイコン">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/twitter.png" alt="twitterアイコン">
+                    </a>
+                </li>
+            </ul>
+
         </div>
-        <ul class="icon-list">
-            <li>
-                <a href="">
-                    <img src="img/github.png" alt="githubアイコン">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="img/twitter.png" alt="twitterアイコン">
-                </a>
-            </li>
-        </ul>
 
+        <!-- workの箱 -->
+        <div class="box-works">
+            <h2 class="sub-title"><span class="color-green">W</span>orks</h2>
+
+            <ul class="works-list"> 
+                <li>
+                    <img src="img/work_1.png" alt="twitterクローン">
+                    <h3>twitterクローン</h3>
+                    <span>HTML / CSS/PHP /MySQL </span>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">Github</a>
+                    </div>
+
+                </li>
+                <li>
+                    <img src="img/work_2.png" alt="twitterクローン">
+                    <h3>twitterクローン</h3>
+                    <span>HTML / CSS/PHP /MySQL </span>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">Github</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/work_3.png" alt="twitterクローン">
+                    <h3>twitterクローン</h3>
+                    <span>HTML / CSS/PHP /MySQL </span>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">Github</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
     </div>
 
-    <!-- workの箱 -->
-    <div>
-        <h2 class="sub-title"><span class="color-green">W</span>orks</h2>
 
-        <ul>
-            <li>
-                <img src="img/work_1.png" alt="twitterクローン">
-                <h3>twitterクローン</h3>
-                <span>HTML / CSS/PHP /MySQL </span>
-                <div>
-                    <a href="">Webサイト</a>
-                    <a href="">Github</a>
-                </div>
+<!-- フッター 
+・copyrightの設定→pタグを使う-->
 
-            </li>
-            <li>
-                <img src="img/work_2.png" alt="twitterクローン">
-                <h3>twitterクローン</h3>
-                <span>HTML / CSS/PHP /MySQL </span>
-                <div>
-                    <a href="">Webサイト</a>
-                    <a href="">Github</a>
-                </div>
-            </li>
-            <li>
-                <img src="img/work_3.png" alt="twitterクローン">
-                <h3>twitterクローン</h3>
-                <span>HTML / CSS/PHP /MySQL </span>
-                <div>
-                    <a href="">Webサイト</a>
-                    <a href="">Github</a>
-            </li>
-        </ul>
-
-    </div>
-</div>
+<footer class="block-footer">
+    <p>Copyright © TECH I.S.,Inc.</p>
+</footer>
 
 
 
 
-    
 </body>
+
 </html>
